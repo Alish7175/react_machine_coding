@@ -1,12 +1,12 @@
-
 import './App.css'
+import { AppRoutes } from './AppRoutes'
 
 function App() {
  
 
   return (
     <>
-      <div className='text-4xl'> Hello world </div>
+      <AppRoutes />
     </>
   )
 }
