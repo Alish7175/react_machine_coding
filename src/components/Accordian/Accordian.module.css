@@ -1,0 +1,25 @@
+.accordian{
+    background-color: blue;
+    width: 80%;
+    margin: 15rem auto;
+    padding: 2rem;
+    border-radius: 3%;
+}
+
+.accordian_item{
+    background-color: red;
+    padding: 2rem;
+    margin: 2rem 2rem;
+    border-radius: 10px;
+}
+
+.accordian_item h3{
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.accordian_item p{
+    text-align: center;
+}
+  
