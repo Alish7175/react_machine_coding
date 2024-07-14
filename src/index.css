@@ -3,12 +3,31 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
- 
+  font-family: sans-serif;
+  color: rgba(255,255,255,0.87);
+  background-color: #242424;
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
+  padding:0;
 }
+
+.star-rating{
+  font-size: 24px;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.star.hover {
+  color: gold;
+}
+
+.star.active {
+  color: orange;
+}
+
 
